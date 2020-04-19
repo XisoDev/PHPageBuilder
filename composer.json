@@ -1,13 +1,17 @@
 {
-    "name": "hansschouten/phpagebuilder",
-    "description": "A drag and drop pagebuilder to manage pages in any PHP project.",
+    "name": "xisodev/phpagebuilder",
+    "description": "PHP 프로젝트에 드래그앤드롭 페이지빌더를 설치합니다.",
     "keywords": [
         "pagebuilder"
     ],
-    "homepage": "https://github.com/HansSchouten/PHPagebuilder",
+    "homepage": "https://github.com/XisoDev/PHPagebuilder",
     "type": "library",
     "license": "MIT",
     "authors": [
+        {
+            "name": "xiso",
+            "email": "xiso@amuz.co.kr"
+        },
         {
             "name": "Hans Schouten",
             "email": "hans@falcosolutions.nl"

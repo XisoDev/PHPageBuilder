@@ -11,7 +11,7 @@ class UploadRepository extends BaseRepository
      *
      * @var string
      */
-    protected $table = 'uploads';
+    protected $table = 'pagebuilder_uploads';
 
     /**
      * The class that represents each uploaded file.

@@ -42,7 +42,7 @@ class BaseRepository
         $this->db = $phpb_db;
 
         // apply the configured prefix to the table set in the superclass and remove non-alphanumeric characters
-        $this->table = phpb_config('storage.database.prefix') . $this->removeNonAlphaNumeric($this->table);
+        $this->table = phpb_config('storage.database.prefix') . 'pagebuilder_' . $this->removeNonAlphaNumeric($this->table);
     }
 
     /**

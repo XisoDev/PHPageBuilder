@@ -14,7 +14,7 @@ class PageRepository extends BaseRepository implements PageRepositoryContract
      *
      * @var string
      */
-    protected $table = 'pages';
+    protected $table = 'pagebuilder_pages';
 
     /**
      * The class that represents each page.

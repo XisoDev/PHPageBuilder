@@ -11,7 +11,7 @@ class PageTranslationRepository extends BaseRepository implements PageTranslatio
      *
      * @var string
      */
-    protected $table = 'page_translations';
+    protected $table = 'pagebuilder_page_translations';
 
     /**
      * The class that represents each page translation.

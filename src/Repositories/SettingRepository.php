@@ -11,7 +11,7 @@ class SettingRepository extends BaseRepository implements SettingRepositoryContr
      *
      * @var string
      */
-    protected $table = 'settings';
+    protected $table = 'pagebuilder_settings';
 
     /**
      * Replace all website settings by the given data.
